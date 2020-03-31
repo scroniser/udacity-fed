@@ -1,0 +1,11 @@
+.card-area {
+    display: grid;
+    grid-auto-rows: minmax(200px, auto);
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.card {
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 1rem;
+}
