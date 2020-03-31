@@ -1,0 +1,77 @@
+body {
+    background-color: #f6f6f6;
+    font-family: 'Baloo Tamma 2', sans-serif;
+    margin: unset;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Josefin Slab', serif;
+}
+.container {
+    display: grid;
+    grid-template-rows: 150px calc(100vh - 200px) 50px;
+    grid-template-areas: 
+        "heading"
+        "main"
+        "footer"
+        ;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 1100px;
+}
+
+.inner-wrapper {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.header {
+    display: grid;
+    grid-template-rows: 100px 50px;
+    grid-template-areas: 
+        "name"
+        "nav";
+    grid-area: heading;
+    background-color: #78C9A1;
+    align-items: center;
+}
+
+.blog-name {
+    grid-area: name;
+}
+
+.main-nav {
+    grid-area: nav;
+    background-color: #1D7677;
+    display: flex;
+}
+
+.nav > ul {
+    display: flex;
+    padding: unset;
+    list-style-type: none;
+}
+
+.nav > ul > li {
+    display: flex;
+
+}
+.nav > ul > li > a {
+    padding: .69rem 1rem;
+}
+
+.main-nav > ul > li > a {
+    color: #f6f6f6;
+    text-decoration: unset;
+}
+
+.main-nav > ul > li > a:focus, .main-nav >ul > li > a:hover {
+    outline: 1px dotted red;
+    text-decoration: underline;
+    background-color: #2fbdbf;
+    color: #404040;
+}
+
+.footer {
+
+}
