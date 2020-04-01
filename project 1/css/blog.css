@@ -1,0 +1,22 @@
+.blog {
+    display: grid;
+    grid-template-rows: 300px auto;
+    grid-template-areas: 
+        "hero"
+        "post"
+}
+
+.hero {
+    grid-area: hero;
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+}
+.hero-twisted-trees {
+    background-image: url("../images/twisted-trees.jpg");
+}
+
+.content {
+    grid-area: post;
+    flex: 1;
+}
