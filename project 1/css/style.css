@@ -1,4 +1,5 @@
 @import "card.css";
+@import "blog.css";
 
 body {
     background-color: #f6f6f6;
@@ -56,12 +57,15 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 .nav > ul > li > a {
-    padding: .69rem 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .main-nav > ul > li > a {
     color: #f6f6f6;
     text-decoration: unset;
+    padding-top: .69rem;
+    padding-bottom: .69rem;
 }
 
 .main-nav > ul > li > a:focus, .main-nav >ul > li > a:hover {
@@ -72,5 +76,5 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer {
-
+    display: flex;
 }
