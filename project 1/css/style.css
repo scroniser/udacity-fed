@@ -16,10 +16,10 @@ blockquote:before, blockquote:after {
     
 }
 blockquote:before {
-    content: "“";
+    content: open-quote;
 }
 blockquote:after {
-    content: "”"
+    content: close-quote;
 }
 .container {
     display: grid;

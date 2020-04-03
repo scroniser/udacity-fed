@@ -32,8 +32,8 @@
     color: white;
     padding: 1rem;
 }
-.author > p > a {
-    filter: invert(1);
+.author > p > a, .author a {
+    color: #A4DF69;
 }
 
 .author-img {
