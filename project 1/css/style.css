@@ -20,9 +20,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 .wrapper {
     margin: 0 auto;
-    width: 1100px;
     padding-left: 1rem;
     padding-right: 1rem;
+    width: calc(100% - 2rem);
+}
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1024px) {
+    .wrapper {
+        width: 1100px;
+    }
 }
 
 .header {
@@ -43,7 +50,6 @@ h1, h2, h3, h4, h5, h6 {
 .main-nav {
     grid-area: nav;
     background-color: #1D7677;
-    display: flex;
 }
 
 .nav > ul {
