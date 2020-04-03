@@ -1,0 +1,8 @@
+/* not ideal, creating a file for Udacity's requirements. This should be dynamically created later for individual blog posts through a CMS */
+.hero {
+    background-image: url("../images/twisted-trees.jpg");
+}
+.hero-title {
+    background-color: #202515;
+    color: lightgray;
+ }
