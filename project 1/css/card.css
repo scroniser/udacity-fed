@@ -1,7 +1,6 @@
 .card-area {
     display: grid;
     grid-auto-rows: minmax(200px, auto);
-    grid-template-columns: repeat(4, 1fr);
 }
 
 .card {
@@ -32,4 +31,14 @@
 .card > div > button:hover {    
     background-color: #2fbdbf;
     color: black;
+}
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1024px) {
+    .card-area {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .card > figure > img, .card > figure > figcaption {
+        max-width: 200px;
+    }
 }
